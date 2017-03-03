@@ -1,0 +1,46 @@
+body {
+	font: 14px "Raleway", sans-serif;
+	line-height: 1.5;
+	height: 100%;
+}
+
+.logo {
+	height: 20px;		
+}
+
+.bg-1 {
+	color: gray;		
+	padding: 30px;
+}
+
+.bg-2 {
+	color: gray;		
+	padding: 30px;
+	background-color: lightgray;
+}
+
+.bg-4 { 
+   	background-color: #2f2f2f;
+	color: #ffffff;
+}
+
+.back-to-top {
+	cursor: pointer;
+   	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	display:none;
+}
+
+.footer {
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	padding: 0px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: black; /* #428bca */
+	width: 100%;
+	color: white;
+}

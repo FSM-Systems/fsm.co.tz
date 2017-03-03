@@ -1,0 +1,84 @@
+body, html {
+	font: 16px "Raleway", sans-serif;
+	line-height: 1.5;
+	height: 100%;
+	text-align: center;
+	color: gray;
+}
+
+p {
+	line-height: 1.5;
+}
+
+.img {
+	height: 35px;
+}
+
+.logomain {
+	height: 60px;
+}
+
+.social {
+	font-size: 32px;
+	color: #428bca;
+}
+
+.social:hover {
+	color: tomato;
+	cursor: pointer;
+}
+
+.panel-image {
+	height: 150px;
+	margin: 10px;
+	display: block;
+	margin: auto;
+	box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset; 
+	float: left;
+	margin: 4px;
+}
+
+.panel-body {
+	text-align: justify;
+	
+}
+
+.contacts {
+	height: 25px ! important;
+}
+
+.top {
+	height: 10%;
+}
+
+.middle {
+	height: 70%;
+	overflow: auto;
+}
+
+.bottom {
+	height: 15%;
+	padding: 10px;	
+	vertical-align: middle;
+	border-top-color: lightgray;
+	border-top-width: 2px;
+	border-top-style: solid;
+	line-height: 20px;
+}
+
+.panel-body {
+	height: 80% ! important;
+}
+
+.footer {
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	padding: 0px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: black; /* #428bca */
+	width: 100%;
+	color: white;
+}
