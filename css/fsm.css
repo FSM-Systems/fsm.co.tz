@@ -11,7 +11,7 @@ p {
 }
 
 .img {
-	height: 35px;
+	height: 25px;
 }
 
 .logomain {
@@ -21,6 +21,9 @@ p {
 .social {
 	font-size: 32px;
 	color: #428bca;
+	height: 32px;
+	line-height: 32px;
+	display: block;
 }
 
 .social:hover {
@@ -35,7 +38,7 @@ p {
 	margin: auto;
 	box-shadow: 25px 25px 50px 0 white inset, -25px -25px 50px 0 white inset; 
 	float: left;
-	margin: 4px;
+	margin-right: 10px;
 }
 
 .panel-body {
@@ -44,7 +47,12 @@ p {
 }
 
 .contacts {
-	height: 25px ! important;
+	font-family: Raleway, sans-serif;
+}
+
+.facust {
+	//color: white;
+	font-size: 16px;
 }
 
 .top {
@@ -52,17 +60,13 @@ p {
 }
 
 .middle {
-	height: 70%;
+	height: calc(60% - 30px);
 	overflow: auto;
 }
 
 .bottom {
-	height: 15%;
+	height: 25%;
 	padding: 10px;	
-	vertical-align: middle;
-	border-top-color: lightgray;
-	border-top-width: 2px;
-	border-top-style: solid;
 	line-height: 20px;
 }
 
@@ -80,5 +84,5 @@ p {
 	left: 0;
 	background-color: black; /* #428bca */
 	width: 100%;
-	color: white;
+	text-align: center;
 }

@@ -23,100 +23,86 @@
 	<link rel="stylesheet" href="css/fsm.css" />
  </head>
  <body>
- <div class="container-fluid" style="height: 100%;">
- 	<div class="row top text-left"> 		
- 		<div class="container-fluid">
-			<div class="col-md-3">
-				<img src="img/main.png" class="logomain">
-			</div>
-			<div class="col-md-8">
-			
-			</div>
-			<div class="col-md-1">
-				<div class="pull-right">
-					<span class="fa fa-facebook-square social"></span>
-					<span class="fa fa-twitter-square social"></span>
-				</div>			
-			</div>
- 		</div>
- 	</div>
- 	<div class="row middle">
- 		<div class="col-md-4">
- 			<div class="panel panel-default">
- 				<div class="panel-heading">
- 					<img src="img/attendance.png" class="img" alt="">
- 				</div>
- 				<div class="panel-body">
- 					<p>
- 						<img src="img/mobile_with_map.jpg" class="panel-image" alt="">
- 						The solution to <strong style="color: black;">track employee attendance</strong> with their mobile phones.
- 						Define Areas where your employees are allowed to clock in.
- 						Control if they are actually at work in the designated areas.
- 						Print the reports at the end of the month and attach them to the payslip.
- 					</p>
- 				</div>
- 				<div class="panel-footer text-right">
- 					<a href="attendance.php" class="btn btn-warning">FSM Attendance Info
- 						<span class="glyphicon glyphicon-chevron-right">
- 					</a>
- 				</div>
- 			</div>
- 		</div>
-  		<div class="col-md-4">
- 			<div class="panel panel-default">
- 				<div class="panel-heading">
- 					<img src="img/erp.png" class="img" alt="">
- 				</div>
- 				<div class="panel-body">
- 					<p>
- 						<img src="img/erp.jpg" class="panel-image" alt="">
- 						<strong style="color: black;">The fully comprehensive solution.</strong>
- 						FSM-Erp includes the attendance and fleet options in a PLUS version and more:  Workshop, Stores, Human Resources, Correspondence, Fuel logs, Vehicles, Reports etc.
- 						A simple  but effective tool to manage your company.
- 					</p>
- 				</div>
- 				<div class="panel-footer text-right">
- 					<a href="" class="btn btn-warning">FSM-Erp Info
- 						<span class="glyphicon glyphicon-chevron-right">
- 					</a>
- 				</div>
- 			</div>
- 		</div>
-  		<div class="col-md-4">
- 			<div class="panel panel-default">
- 				<div class="panel-heading">
- 					<img src="img/fleet.png" class="img" alt="">
- 				</div>
- 				<div class="panel-body">
- 					<p>
- 						<img src="img/trucks.jpg" class="panel-image" alt="">
- 						<strong style="color: black;">Manage your fleet of trucks.</strong> Vehicles, drivers, trips, document expiries and more.
- 						Keep control on your vehicles and take action whene they are late at checkpoints or for deliveries.
- 					</p>
- 				</div>
- 				<div class="panel-footer text-right">
- 					<a href="" class="btn btn-warning">FSM Fleet Info
- 						<span class="glyphicon glyphicon-chevron-right">
- 					</a>
- 				</div>
- 			</div>
- 		</div>
- 	</div>
- 	<div class="row bottom">
- 		<div class="col-md-3"></div>
- 		<div class="col-md-2">
- 			<a href="mailto:info@fsm.co.tz"><img src="img/envelope.png" class="contacts"> info@fsm.co.tz</a>
- 		</div>
- 		<div class="col-md-2">
- 			<a href="tel:+255755468826"><img src="img/phone.png" class="contacts"> Tel. +255 755 46 88 26</a>
- 		</div>
- 		<div class="col-md-2">
- 			<a href="skype: mazzofab.tz" ><img src="img/skype.png" class="contacts"> mazzofab.tz</a>
- 		</div>
- 		<div class="col-md-3"></div>
- 	</div>
- 	<div class="footer">
- 		&copy; 2017 FSM Systems
- 	</div>
- </div>
+	 <div class="container-fluid" style="height: 100%;">
+	 	<?php
+		include "header_index.php" 	
+	 	?>
+	 	<div class="row middle">
+	 		<div class="col-sm-4">
+	 			<div class="panel panel-default">
+	 				<div class="panel-heading">
+	 					<img src="img/attendance.png" class="img" alt="">
+	 				</div>
+	 				<div class="panel-body">
+	 					<p>
+	 						<img src="img/mobile_with_map.jpg" class="panel-image" alt="">
+	 						The solution to <strong style="color: black;">track employee attendance</strong> with their mobile phones.
+	 						Define Areas where your employees are allowed to clock in.
+	 						Control if they are actually at work in the designated areas.
+	 						Print the reports at the end of the month and attach them to the payslip.
+	 					</p>
+	 				</div>
+	 				<div class="panel-footer text-right">
+	 					<a href="attendance.php" class="btn btn-warning">FSM Attendance Info
+	 						<span class="glyphicon glyphicon-chevron-right">
+	 					</a>
+	 				</div>
+	 			</div>
+	 		</div>
+	  		<div class="col-md-4">
+	 			<div class="panel panel-default">
+	 				<div class="panel-heading">
+	 					<img src="img/erp.png" class="img" alt="">
+	 				</div>
+	 				<div class="panel-body">
+	 					<p>
+	 						<img src="img/erp.jpg" class="panel-image" alt="">
+	 						<strong style="color: black;">The fully comprehensive solution.</strong>
+	 						FSM-Erp includes the attendance and fleet options in a PLUS version and more:  Workshop, Stores, Human Resources, Correspondence, Fuel logs, Vehicles, Reports etc.
+	 						A simple  but effective tool to manage your company.
+	 					</p>
+	 				</div>
+	 				<div class="panel-footer text-right">
+	 					<a href="erp.php" class="btn btn-warning">FSM-Erp Info
+	 						<span class="glyphicon glyphicon-chevron-right">
+	 					</a>
+	 				</div>
+	 			</div>
+	 		</div>
+	  		<div class="col-md-4">
+	 			<div class="panel panel-default">
+	 				<div class="panel-heading">
+	 					<img src="img/fleet.png" class="img" alt="">
+	 				</div>
+	 				<div class="panel-body">
+	 					<p>
+	 						<img src="img/trucks.jpg" class="panel-image" alt="">
+	 						<strong style="color: black;">Manage your fleet of trucks.</strong> Vehicles, drivers, trips, document expiries and more.
+	 						Keep control on your vehicles and take action whene they are late at checkpoints or for deliveries.
+	 					</p>
+	 				</div>
+	 				<div class="panel-footer text-right">
+	 					<a href="fleet.php" class="btn btn-warning">FSM Fleet Info
+	 						<span class="glyphicon glyphicon-chevron-right">
+	 					</a>
+	 				</div>
+	 			</div>
+	 		</div>
+	 	</div>
+	 	
+	 	<div class="row bottom">
+	 		<div class="container">
+	 			<div class="col-md-3"></div>
+	 			<div class="col-md-6">
+		 			<p>
+		 				Find your best solution with our products. Inquire for any information. We can customize the installations and the product based on your needs.
+		 			</p> 
+	 			</div>
+	 			<div class="col-md-3"></div>
+	 		</div>
+	 	</div>
+	 	<?php
+		include "footer_index.php";	 	
+	 	?>
+	 </div>
  </body>
